@@ -16,6 +16,6 @@
     "incremental": true,
     "types": ["jest", "node", "@types/testing-library__jest-dom"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_document.js"],
   "exclude": ["node_modules", "cypress"]
 }
